@@ -1,0 +1,152 @@
+/*===== footer section===*/
+.contact-form{
+  color: white;
+  margin-top: 100px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 3px grey;
+
+}
+hr{
+ background: white;
+}
+
+#footer{
+
+  background: #22100a;
+  padding: 0 0 40px 0;
+  color: #eee;
+  font-size: 14px;
+}
+
+#footer .footer-top{
+
+  background: #502512ec;
+  padding: 20px 0 0 0;
+  border-top: 40px solid white;
+
+
+
+}
+
+#footer .footer-top .footer-info{
+
+  margin-bottom: 10px;
+}
+
+
+
+#footer .footer-top .footer-info p{
+
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: #ecf5ff;
+
+}
+
+#footer  .footer-top .social-links a {
+
+  font-size: 18px;
+  display: inline-block;
+  background:#22100a;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+
+}
+
+#footer .footer-top  .social-links a:hover{
+ background: #013d17;
+ color: #fff;
+}
+
+#footer .footer-top h4{
+
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#footer .footer-top  .footer-links {
+
+margin-bottom: 30px;
+
+}
+#footer .footer-top  .footer-links ul{
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top  .footer-links ul li{
+
+  padding: 8px 0;
+}
+#footer .footer-top .footer-links ul li:first-child{
+
+  padding-top: 0;
+}
+#footer .footer-top  .footer-links ul a{
+
+  color: #ecf5ff;
+}
+
+#footer .footer-top .footer-links ul a:hover{
+
+  color: white;
+}
+
+#footer .footer-top .footer-contact{
+
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p{
+
+  line-height: 26px;
+}
+
+#footer .copyright{
+
+  text-align: center;
+  padding-top: 20px;
+}
+
+#footer .credits{
+
+  text-align: center;
+  font-size: 13px;
+  color: #f1f7ff;
+}
+#footer .credits a{
+
+  color: #bfddfe;
+}
+
+#footer .credits a:hover {
+  color: #f1f7ff;
+
+}
+/*=====End of footer section===*/
+
+@media (max-width: 767px) {
+
+  /* ... */
+
+  .top-content .carousel-control-prev,
+  .top-content .carousel-control-next { display: none; }
+  .top-content .carousel-indicators li { margin-left: 10px; margin-right: 10px; }
+
+  /* ... */
+
+}

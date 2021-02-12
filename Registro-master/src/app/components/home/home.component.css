@@ -1,0 +1,239 @@
+body {
+    font-family: "ABeeZee", sans-serif;
+  }
+  
+  .logocota {
+    width: 180px;
+    height: 110px;
+  
+  }
+  .navbar {
+    background-color: #ffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    min-height: 100px;
+    font-size: 1.1rem;
+  }
+  .navbar-toggler {
+    font-size: 35;
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  .iconodetails {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+  }
+  .carousel-item img {
+    height: 700px;
+    width: auto;
+    /* Centrar elementos */
+    margin: 0 auto;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    }
+    body {
+        font-family: 'Montserrat', sans-serif;
+      }
+    .logocota{
+        width: 200px;
+        height: 80px;
+        border-radius: 15px;
+      }
+    /*====inicio Barra de navegacion==*/
+    .navbar{
+        background: #013d17;
+  
+    }
+    .navbar-toggler {
+        font-size: 35;
+      }
+  
+    .navbar-toggler:focus {
+        outline: none;
+      }
+  
+  
+    .main-navbar-secondary{
+  
+        background:transparent!important;
+        position:absolute;
+        left:0;
+        right: 0;
+        z-index:3;
+        top:10px;
+    }
+  
+    .iconodetails {
+      width: 150px;
+      margin: 0;
+      text-align: center;
+    }
+    .iconodetails p{
+        color: white;
+    }
+    a{
+        color:white;
+    }
+    .navbar-nav a:hover{
+    background: #808000;
+    border: 2px solid #808000;
+    padding: 8px 10px;
+    color:white;
+    }
+  /*====final Barra de navegacion==*/
+  /*====inicio hero section==*/
+  .hero-wrap{
+    width: 100%;
+    height: 850px;
+    position: relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    z-index:0;
+  }
+  /*====fondo imagen==*/
+  .hero-wrap .overlay{
+  
+    position:absolute;
+    top:0;
+    left:0;
+    right: 0;
+    content: "";
+    opacity: .5;
+    background-image: linear-gradient(to right top, #3b391f, #413a1f, #473b1f, #4d3c20, #533c22);
+    height: 850px;
+  }
+  .hero-wrap .main-text{
+    height: 800px!important;
+  }
+  .main-text h1{
+  font-size:60px;
+  color:white;
+  line-height:1.1;
+  font-weight: bold;
+  }
+  .main-text p{
+    line-height:1.5;
+    color:white;
+  
+  }
+  .btn-hero{
+    background-color:#013d17!important;
+    color:white;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation:skew 3s infinite;
+    animation-direction:normal;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    padding:5px 17px;
+  }
+  @keyframes skew{
+    0%{
+     transform: skewX(20deg)
+    }
+    100%{
+        transform: skewX(-20deg)
+       }
+  
+  }
+  /*====final hero section==*/
+  
+  /*====heading section==*/
+  .heading-section h2{
+  
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .img-wrap .effect{
+  
+    position: relative;
+    margin-bottom: 0;
+    display: block;
+  }
+  .img-wrap .effect:after{
+   z-index:-1;
+   content: "";
+   position: absolute;
+   top:10px;
+   right: 10px;
+   bottom: 10px;
+   left: 10px;
+   background: rgba(194, 115, 51, 0.767);
+   transition: .3s all ease-in-out;
+  }
+  .img-wrap:hover .effect:after{
+    right: -10px;
+    bottom: -10px;
+    position:absolute;
+  }
+  .btn-about{
+    background-color: #ff8500 !important;
+    color:white;
+    margin-right: 5px;
+    margin-left: 5px;
+    animation:skew 3s infinite;
+    animation-direction:normal;
+    transform: skew(20deg);
+    animation-direction: alternate;
+    padding:5px 17px;
+  }
+  
+  
+  .contact .icon-box{
+    color:#22100a;
+    text-align:center;
+    box-shadow:0 0 15px #013d17;
+    padding:20px 0 30px 0;
+  }
+  .contact .icon-box i.fab{
+    font-size:20px;
+    color:white;
+    border-radius: 50%;
+    padding:8px;
+    background:  #013d17;
+  }
+  .contact .icon-box h3{
+    font-size:20px;
+    color:#000;
+    font-weight:bold;
+    margin:10px 0;
+  }
+  .contact .icon-box p{
+    padding:0;
+    line-height:24px;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  .contact .social-links{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+  }
+  .contact .social-links a{
+    font-size:16px;
+    display: inline-block;
+    color:#fff;
+    line-height:1;
+    margin:0 8px;
+    transition: 0.3s;
+    padding:10px;
+    border-radius:50px;
+    border:1px solid #22100a;
+  }
+  .contact .social-links a:hover{
+    color:#fff;
+    border-color:#22100a;
+    background:#ff8500;
+  }
+  .contact form{
+    box-shadow:0 0 15px #013d17;
+    padding:27px;
+  }
+  /*=====End of contact section===*/
